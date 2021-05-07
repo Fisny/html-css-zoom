@@ -49,12 +49,10 @@
     justify-content: space-between;
     flex-grow: 1;
     color: white;
-    
 }
 
 .barra-icons:first-child, .barra-icons:last-child{
     flex-basis: 200px;
-    
 }
 
 .barra-icons:last-child{
@@ -64,18 +62,43 @@
     text-align: center;
     align-items: center;
     background-color: rgb(88, 88, 88);
-    
 }
 
 .left-side{
+    margin-left: 15px;
     display: flex;
     height: 100%;
     align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 5px;
+}
+
+div.left-side{
+    justify-content: center;
 }
 
 .barra-icons{
     display: flex;
     flex-direction: row;
     width: 100px;
-    border: 1px solid black;
+}
+
+.central{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    margin: 0 50px;
+}
+
+.central-inside{
+    margin: 0 5px;
+}
+
+.fa-share-square{
+    color: green;
 }
