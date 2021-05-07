@@ -25,7 +25,8 @@
 }
 
 .img{
-    
+    align-items: flex-end;
+    display: flex;
     margin: 0 5px;
     width: 150px;
     height: 100px;
@@ -36,8 +37,7 @@
 .muto{
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
-    width: 100px;
-    justify-content: flex-end;
+    width: 100px;   
 }
 
 
@@ -57,13 +57,25 @@
     
 }
 
-.central{
+.barra-icons:last-child{
+    color: red;
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(88, 88, 88);
     
 }
 
+.left-side{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
 .barra-icons{
+    display: flex;
     flex-direction: row;
     width: 100px;
     border: 1px solid black;
-    
 }
